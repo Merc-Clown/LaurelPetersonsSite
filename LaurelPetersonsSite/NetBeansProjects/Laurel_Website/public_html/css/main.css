@@ -18,11 +18,11 @@ body {
 .navbar-custom a:hover,
 .navbar-nav > li > a:hover,
 .nav > li > a:focus {
-    background-color: rgba(85,98,112,.5);
+    background-color: rgb(151,154,170);
 }
 
 .navbar-custom .active {
-    background-color: rgba(85,98,112,.5);
+    background-color: rgb(151,154,170);
     color: whitesmoke;
 }
 
@@ -44,7 +44,7 @@ body {
 }
 
 .jumbotron {
- 
+ display:none;
  z-index: 1;
 
  color: whitesmoke;
@@ -53,7 +53,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom left;
-     background: #556270; /* For browsers that do not support gradients */
+     background: rgb(151,154,170); /* For browsers that do not support gradients */
  
 }
 
@@ -73,7 +73,7 @@ footer {
     bottom: 0;
     width: 100%;
     height: 60px;
-    background-color: #556270;
+    background-color: rgb(151,154,170);
 }
 footer p {
     margin: 20px;
